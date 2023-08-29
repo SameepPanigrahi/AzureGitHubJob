@@ -19,6 +19,6 @@ jobs:
       - run: echo "🍏 This job's status is ${{ job.status }}."
       - run: echo "The github.ref_name is this one  ${{ github.ref_name }}"
       - name: Change the github ref name
-      - run: echo " ${{ github.ref_name }} = testing"
+        run: echo " ${{ github.ref_name }} = testing"
       - name: After changing the name
-      - run: echo "The github.ref_name is this one  ${{ github.ref_name }}"
+        run: echo "The github.ref_name is this one  ${{ github.ref_name }}"
