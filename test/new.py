@@ -1,4 +1,6 @@
 
 # Print key value
 key_value = os.environ.get("WHO_TO_TRUST")
-print(key_value)
+
+if __name__ == "__main__":
+  print(key_value)
