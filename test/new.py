@@ -8,6 +8,6 @@ actual_val_decoded = actual_val_encoded.decode("ascii")
 
 if __name__ == "__main__":
   print(type(key_value))
-  print(key_value)
+  print(key_value.decode("ascii"))
   print(actual_val_encoded)
   print(actual_val_decoded)
