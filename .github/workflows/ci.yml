@@ -24,3 +24,7 @@ jobs:
         run: echo " ${{ github.ref_name }} = testing"
       - name: After changing the name
         run: echo "The github.ref_name is this one  ${{ github.ref_name }}"
+      - name: deploy-model-step
+        id: deploy-model-step
+        run: python new.py
+        working-directory: test
